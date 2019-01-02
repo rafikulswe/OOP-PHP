@@ -14,7 +14,7 @@ class Controller{
     }
 }
 
-//Inherit keyword = extends
+//AccessController Inherit the Controller by using keyword extends
 class AccessController extends Controller{
     
     public function details(){
