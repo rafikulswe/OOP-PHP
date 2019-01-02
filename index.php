@@ -4,10 +4,13 @@ class ForceUser{
 	public function userName(){
 		return $name = "Rafikul Islam Rafi";
 	}
+	private function userEmail(){
+		return $email = "rafikulswe@gmail.com";
+	}
 	public function userDetails(){
 		$data = array(
 			'name' => $this->userName(),
-			'email' => "rafikulswe@gmail.com",
+			'email' => $this->userEmail(),
 			'mobile' => "01729346959"
 
 		);
