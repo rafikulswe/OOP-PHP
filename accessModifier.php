@@ -12,12 +12,12 @@ class ForceUser{
 	protected function userMobile(){
 		return $mobile = "01729346959";
 	}
+	//public, private, protected all can be access from this class.
 	public function userDetails(){
 		$data = array(
 			'name' => $this->userName(),
 			'email' => $this->userEmail(),
 			'mobile' => $this->userMobile()
-
 		);
 		return $data;
 	}
@@ -25,13 +25,15 @@ class ForceUser{
 $forceUser = new ForceUser;
 
 class RecentUser extends ForceUser{
+	//public function can be access from child class.
 	public function showUserName(){
 		return $this->userName();
 	}
-
+	//protected function can be access from child class.
 	public function showUserMobile(){
 		return $this->userMobile();
 	}
+	//private function can't be access from child class.
 }
 $recentUser = new RecentUser;
 ?>
