@@ -41,9 +41,10 @@ $recentUser = new RecentUser;
 	<title>Object Oriented Programming in php</title>
 </head>
 <body>
-	<h4>Here we practice about oop in php.</h4>
-	<p><?= $recentUser->showUserName();?></p>
-	<p><?= $recentUser->showUserMobile();?></p>
+	<h4>Here I practiced about oop in php.</h4>
+	<p>Output the public method from the parent class:  <b><?= $recentUser->showUserName();?></b></p>
+	<p>Output protected method from the parent class:   <b><?= $recentUser->showUserMobile();?></b></p>
+	<p>Private method can't call from the child class. But it can be called from the same class.</p>
 	
 	<?php 
 		$value = $forceUser->userDetails();
