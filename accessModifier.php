@@ -50,7 +50,7 @@ $recentUser = new RecentUser;
 		$value = $forceUser->userDetails();
 		foreach($value as $val){
 	?>
-	<h5><?= $val;?></h5>
+	<p><?= $val;?></p>
 	<?php
 		}
 	?>
