@@ -1,10 +1,10 @@
 Object Oriented Concepts in PHP
-1)	Class
+1)	Class(
     	Parent Class
-    	Child Class
+    	Child Class)
 2)	Object
 3)	Variable
-4)	Function/Method
+4)	Function/Method(
     	Member Function
     	Construct Method
     	Destruct Method
@@ -12,16 +12,16 @@ Object Oriented Concepts in PHP
     	Abstract Method
     	Public Method
     	Private Method
-    	Protected Method
-5)	Inheritance
+    	Protected Method)
+5)	Inheritance(
     	Single level Inheritance
-    	Multi-level Inheritance
+    	Multi-level Inheritance)
 6)	Interface
-7)	Access Modifier 
+7)	Access Modifier (
     	Public 
     	Private
     	Protected
-    	Default 
+    	Default )
 8)	Polymorphism 
 9)	Encapsulation 
 10)	Overwriting 
