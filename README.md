@@ -16,7 +16,7 @@ Object Oriented Concepts in PHP
 5)	Inheritance(
     	Single level Inheritance
     	Multi-level Inheritance) ->Describe on Inheritance.php file
-6)	Interface
+6)	Interface ->Describe on Interface.php file
 7)	Access Modifier (
     	Public 
     	Private
