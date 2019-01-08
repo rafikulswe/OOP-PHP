@@ -23,7 +23,7 @@ Object Oriented Concepts in PHP
     	Protected
     	Default ) ->Describe on accessModifier.php file
 8)	Polymorphism ->Describe on Polymorphism.php file
-9)	Encapsulation 
+9)	Encapsulation ->Describe on Encapsulation.php file
 10)	Overwriting ->Describe on Polymorphism.php file
-11)	Keywords
+11)	Keywords ->Describe on Keyword.php file
     	final
