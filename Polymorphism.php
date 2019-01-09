@@ -27,4 +27,5 @@
     $userobj = new User;
     echo $userobj->UserInfo();
     //when we use the method of parent class by overwriting this called polymorphism.
+    //different of use of same method. (in a family sister is known as 1. parents son, 2. again known as aunty)
 ?>
